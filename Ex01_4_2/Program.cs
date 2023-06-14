@@ -4,7 +4,6 @@
 
 System.Console.Write("Введите число N: ");
 int n = Convert.ToInt32(Console.ReadLine());
-//String str = "Все четные числа: ";
 for(int i = 2; i <= n; i+=2){
     System.Console.Write(i+" ");
 }
